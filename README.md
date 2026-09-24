@@ -57,5 +57,17 @@
 ### 1. 下载脚本
 
 ```bash
-curl -o cf-xray.sh https://raw.githubusercontent.com/SumMoonYou/cf-tunnels-vless/main/cf-tunnels-vless.sh
-chmod +x cf-xray.sh
+wget -O install.sh https://raw.githubusercontent.com/SunMoonWithYou/cf_tunnels_vless/main/install.sh
+```
+
+### 2. 赋予执行权限
+
+```bash
+chmod +x install.sh
+```
+
+### 3. 运行
+
+```bash
+sudo ./install.sh
+```
